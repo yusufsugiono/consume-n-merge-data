@@ -1,5 +1,5 @@
-import Hapi from "@hapi/hapi";
-import got from "got";
+const Hapi = require("@hapi/hapi");
+const got = require("got");
 
 const { ORDER_SERVICE_PORT = 4000, USER_SERVICE_PORT = 5000 } = process.env;
 
